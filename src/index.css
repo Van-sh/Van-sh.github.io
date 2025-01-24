@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+:root {
+   --red-rgb: 255, 0, 0;
+   --yellow-rgb: 255, 255, 0;
+   --blue-rgb: 0, 0, 255;
+   --green-rgb: 0, 255, 0;
+
+   --background-rgb: 0, 0, 0;
+   --foreground-rgb: 255, 255, 255;
+
+   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+   line-height: 1.5;
+   font-weight: 400;
+
+   color-scheme: light dark;
+   color: rgba(var(--foreground-rgb), 0.87);
+   background-color: rgba(var(--background-rgb), 0.87);
+
+   font-synthesis: none;
+   text-rendering: optimizeLegibility;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+}
+
