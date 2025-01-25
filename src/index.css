@@ -23,3 +23,12 @@
    -moz-osx-font-smoothing: grayscale;
 }
 
+
+@keyframes grow {
+   from {
+      scale: 0;
+   }
+   to {
+      scale: 100%;
+   }
+}
