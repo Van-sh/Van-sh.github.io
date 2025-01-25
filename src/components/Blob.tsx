@@ -1,4 +1,4 @@
-import { useCallback, useRef } from "react";
+import { useCallback, useEffect, useRef } from "react";
 
 function Blob() {
    const blobRef = useRef<HTMLDivElement>(null);
@@ -15,12 +15,15 @@ function Blob() {
       );
    }, []);
 
-   window.onmousemove = handleMouseMove;
+   useEffect(() => {
+      window.addEventListener("mousemove", handleMouseMove);
+      return () => window.removeEventListener("mousemove", handleMouseMove);
+   }, [handleMouseMove]);
 
    return (
-      <div className="blur-[12vmax] absolute h-full w-full overflow-hidden -z-1">
+      <div className="fixed h-full w-full overflow-hidden -z-1">
          <div
-            className="h-[35vmax] bg-linear-to-r from-blue-400 to-green-400 aspect-square absolute left-[50%] top-[50%] -translate-[50%] rounded-full animate-[spin_20s_linear_infinite]"
+            className="blur-[12vmax] h-[35vmax] bg-linear-to-r from-blue-400 to-green-400 aspect-square absolute left-[50%] top-[50%] -translate-[50%] rounded-full animate-[spin_20s_linear_infinite]"
             ref={blobRef}
          ></div>
       </div>

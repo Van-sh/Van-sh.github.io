@@ -1,10 +1,10 @@
-import Blob from "./components/Blob";
+import About from "./components/About";
 
 function App() {
    return (
-      <>
-         <Blob />
-      </>
+      <main>
+         <About />
+      </main>
    );
 }
 
