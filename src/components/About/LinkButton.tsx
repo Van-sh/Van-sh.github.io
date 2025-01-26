@@ -9,7 +9,6 @@ function LinkButton({ src, onClick }: LinkButtonProps) {
          onClick={onClick}
       >
          {src}
-         {/* <img src={src} alt={alt} /> */}
       </button>
    );
 }
