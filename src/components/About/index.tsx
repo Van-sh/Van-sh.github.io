@@ -1,18 +1,10 @@
-import { useCallback } from "react";
-import { toast } from "react-toastify";
 import { LINKS } from "../../constants";
 import LinkButton from "./LinkButton";
 
 import Github from "../../assets/Github";
 import LinkedIn from "../../assets/LinkedIn";
-import Mail from "../../assets/Mail";
 
 function About() {
-   const handleCopyMail = useCallback(() => {
-      navigator.clipboard.writeText(LINKS.mail);
-      toast.success("Copied to clipboard");
-   }, []);
-
    return (
       <section className="flex flex-col items-center justify-center gap-10 min-h-screen lg:flex-row">
          <img src="/1sh.svg" alt="Logo" className="lg:animate-[bounce_2s_ease-in-out_infinite]" />
@@ -30,13 +22,10 @@ function About() {
             </p>
             <ul className="flex gap-3">
                <li>
-                  <LinkButton src={<Github />} onClick={() => window.open(LINKS.github, "_blank")?.focus()} />
+                  <LinkButton src={<Github />} href={LINKS.github} />
                </li>
                <li>
-                  <LinkButton src={<LinkedIn />} onClick={() => window.open(LINKS.linkedin, "_blank")?.focus()} />
-               </li>
-               <li>
-                  <LinkButton src={<Mail />} onClick={handleCopyMail} />
+                  <LinkButton src={<LinkedIn />} href={LINKS.linkedin} />
                </li>
             </ul>
          </div>

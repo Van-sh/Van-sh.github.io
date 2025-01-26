@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useRef } from "react";
+import { isDesktop } from "../constants";
 
 function Blob() {
    const blobRef = useRef<HTMLDivElement>(null);
@@ -16,6 +17,7 @@ function Blob() {
    }, []);
 
    useEffect(() => {
+      if (!isDesktop) return;
       window.addEventListener("mousemove", handleMouseMove);
       return () => window.removeEventListener("mousemove", handleMouseMove);
    }, [handleMouseMove]);
