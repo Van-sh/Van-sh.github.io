@@ -1,5 +1,5 @@
 import { LINKS } from "../../constants";
-import LinkButton from "./LinkButton";
+import LinkButton from "../LinkButton";
 
 import Github from "../../assets/Github";
 import LinkedIn from "../../assets/LinkedIn";

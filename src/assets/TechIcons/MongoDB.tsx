@@ -3,8 +3,8 @@ import { type SVGProps } from "react";
 function MongoDB(props: SVGProps<SVGSVGElement>) {
    return (
       <svg width="24" height="24" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" fill="#000000" {...props}>
-         <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-         <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+         <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
+         <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
          <g id="SVGRepo_iconCarrier">
             {" "}
             <circle cx="512" cy="512" r="512" style={{ fill: "#13aa52" }}></circle>{" "}
