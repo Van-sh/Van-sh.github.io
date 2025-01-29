@@ -5,7 +5,7 @@ export type Tech = {
    icon: (props: SVGProps<SVGSVGElement>) => JSX.Element;
 };
 
-export type Projects = {
+export type Project = {
    title: string;
    description: string;
    stack: Tech[];

@@ -1,10 +1,10 @@
 import ExternalLink from "../../assets/ExternalLink";
 import Github from "../../assets/Github";
-import { type Projects } from "../../constants/types";
+import { type Project } from "../../constants/types";
 import LinkButton from "../LinkButton";
 
 type CardProps = {
-   project: Projects;
+   project: Project;
 };
 
 function Card({ project }: CardProps) {
@@ -22,7 +22,7 @@ function Card({ project }: CardProps) {
             {project.stack.map((tech, index) => (
                <li
                   key={index}
-                  className="p-0.5 flex gap-1 items-center bg-white/15 border rounded-sm cursor-default duration-200 hover:bg-white/20 hover:rounded-md hover:scale-110"
+                  className="p-1 flex gap-1 items-center bg-white/30 border border-transparent hover:border-white rounded-sm cursor-default duration-200 hover:bg-white/20 hover:rounded-md hover:scale-105"
                >
                   <tech.icon height={24} />
                   {tech.name}

@@ -1,5 +1,5 @@
-import { CSS, Express, HeroUI, HTML, JavaScript, MongoDB, React } from "../assets/TechIcons";
-import { Projects } from "./types";
+import { CSS, Express, Formik, HeroUI, HTML, JavaScript, MongoDB, React, TailwindCSS } from "../assets/TechIcons";
+import { Project } from "./types";
 
 export const isDesktop = window.innerWidth > 1024;
 
@@ -8,13 +8,15 @@ export const LINKS = {
    linkedin: "https://www.linkedin.com/in/Van-sh",
 };
 
-export const PROJECTS: Projects[] = [
+export const PROJECTS: Project[] = [
    {
       title: "Grocery Planner",
       description:
          "Grocery Planner is a tool designed to simplify meal planning and grocery shopping by organizing recipes, generating shopping lists, and tracking pantry items.",
       stack: [
          { name: "React", icon: React },
+         { name: "TailwindCSS", icon: TailwindCSS },
+         { name: "Formik", icon: Formik },
          { name: "Next UI", icon: HeroUI },
       ],
       github: "https://github.com/Van-sh/Grocery-Planner",
