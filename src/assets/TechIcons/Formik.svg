@@ -1,8 +1,5 @@
-import { type SVGProps } from "react";
 
-function Formik(props: SVGProps<SVGSVGElement>) {
-   return (
-      <svg viewBox="0 0 34.7 34.7" width="24" height="24" xmlns="http://www.w3.org/2000/svg" {...props}>
+      <svg viewBox="0 0 34.7 34.7" width="24" height="24" xmlns="http://www.w3.org/2000/svg">
          <g fill="#0051cd" transform="matrix(.400018502 0 0 .400018502 5.34987738 .55385626)">
             <path d="m38.869 0 9.694 5.5746-38.176 21.954-9.694-5.5747z" />
             <path d="m48.954 6.7451-37.936 21.806-.0013 11.032 37.936-21.806z" />
@@ -20,7 +17,3 @@ function Formik(props: SVGProps<SVGSVGElement>) {
             <path d="m59.908 36.031-9.636-5.5386.0039-11.552 9.636 5.5385z" />
          </g>
       </svg>
-   );
-}
-
-export default Formik;

@@ -1,8 +1,8 @@
-import { LINKS } from "../../constants";
+import { links } from "../../constants";
 import LinkButton from "../LinkButton";
 
-import Github from "../../assets/Github";
-import LinkedIn from "../../assets/LinkedIn";
+import Github from "../../assets/Github.svg?react";
+import LinkedIn from "../../assets/LinkedIn.svg?react";
 
 function About() {
    return (
@@ -22,10 +22,10 @@ function About() {
             </p>
             <ul className="flex gap-3">
                <li>
-                  <LinkButton src={<Github />} href={LINKS.github} />
+                  <LinkButton src={<Github />} href={links.github} />
                </li>
                <li>
-                  <LinkButton src={<LinkedIn />} href={LINKS.linkedin} />
+                  <LinkButton src={<LinkedIn />} href={links.linkedin} />
                </li>
             </ul>
          </div>

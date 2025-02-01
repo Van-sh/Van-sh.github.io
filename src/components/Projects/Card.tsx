@@ -1,6 +1,7 @@
-import ExternalLink from "../../assets/ExternalLink";
-import Github from "../../assets/Github";
 import { type Project } from "../../constants/types";
+
+import ExternalLink from "../../assets/ExternalLink.svg?react";
+import Github from "../../assets/Github.svg?react";
 import LinkButton from "../LinkButton";
 
 type CardProps = {
@@ -24,7 +25,7 @@ function Card({ project }: CardProps) {
                   key={index}
                   className="p-1 flex gap-1 items-center bg-white/30 border border-transparent hover:border-white rounded-sm cursor-default duration-200 hover:bg-white/20 hover:rounded-md hover:scale-105"
                >
-                  <tech.icon height={24} />
+                  <tech.icon />
                   {tech.name}
                </li>
             ))}

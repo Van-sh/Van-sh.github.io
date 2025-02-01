@@ -1,8 +1,15 @@
-import { type SVGProps } from "react";
+type SVGComponent = React.FunctionComponent<
+   React.SVGProps<SVGSVGElement> & {
+      title?: string;
+      titleId?: string;
+      desc?: string;
+      descId?: string;
+   }
+>;
 
 export type Tech = {
    name: string;
-   icon: (props: SVGProps<SVGSVGElement>) => JSX.Element;
+   icon: SVGComponent;
 };
 
 export type Project = {
