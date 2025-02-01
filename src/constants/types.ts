@@ -19,3 +19,5 @@ export type Project = {
    github: string;
    link?: string;
 };
+
+export type Skill = Tech & { amount: number };

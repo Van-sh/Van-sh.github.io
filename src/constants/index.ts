@@ -1,15 +1,5 @@
-import {
-   CSSIcon,
-   ExpressIcon,
-   FormikIcon,
-   HeroUIIcon,
-   HTMLIcon,
-   JavaScriptIcon,
-   MongoDBIcon,
-   ReactIcon,
-   TailwindCSSIcon
-} from "../assets/TechIcons";
-import { Project } from "./types";
+import { CSSIcon, ExpressIcon, FormikIcon, HeroUIIcon, HTMLIcon, JavaScriptIcon, MongoDBIcon, ReactIcon, TailwindCSSIcon, TypeScriptIcon } from "../assets/TechIcons";
+import { Project, Skill } from "./types";
 
 export const isDesktop = window.innerWidth > 1024;
 
@@ -45,4 +35,16 @@ export const projects: Project[] = [
       ],
       github: "https://github.com/Van-sh/CoordiNation",
    },
+];
+
+export const skills: Skill[] = [
+   { name: "HTML", icon: HTMLIcon, amount: 90 },
+   { name: "CSS", icon: CSSIcon, amount: 85 },
+   { name: "TypeScript", icon: TypeScriptIcon, amount: 90 },
+   { name: "JavaScript", icon: JavaScriptIcon, amount: 80 },
+   { name: "React", icon: ReactIcon, amount: 85 },
+   { name: "TailwindCSS", icon: TailwindCSSIcon, amount: 85 },
+   { name: "Formik", icon: FormikIcon, amount: 75 },
+   { name: "Express", icon: ExpressIcon, amount: 90 },
+   { name: "MongoDB", icon: MongoDBIcon, amount: 80 },
 ];
