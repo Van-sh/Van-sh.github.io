@@ -38,13 +38,13 @@ export const projects: Project[] = [
 ];
 
 export const skills: Skill[] = [
-   { name: "HTML", icon: HTMLIcon, amount: 90 },
-   { name: "CSS", icon: CSSIcon, amount: 85 },
-   { name: "TypeScript", icon: TypeScriptIcon, amount: 90 },
-   { name: "JavaScript", icon: JavaScriptIcon, amount: 80 },
-   { name: "React", icon: ReactIcon, amount: 85 },
-   { name: "TailwindCSS", icon: TailwindCSSIcon, amount: 85 },
-   { name: "Formik", icon: FormikIcon, amount: 75 },
-   { name: "Express", icon: ExpressIcon, amount: 90 },
-   { name: "MongoDB", icon: MongoDBIcon, amount: 80 },
+   { name: "HTML", icon: HTMLIcon, percentage: 90 },
+   { name: "CSS", icon: CSSIcon, percentage: 85 },
+   { name: "TypeScript", icon: TypeScriptIcon, percentage: 90 },
+   { name: "JavaScript", icon: JavaScriptIcon, percentage: 80 },
+   { name: "React", icon: ReactIcon, percentage: 85 },
+   { name: "TailwindCSS", icon: TailwindCSSIcon, percentage: 85 },
+   { name: "Formik", icon: FormikIcon, percentage: 75 },
+   { name: "Express", icon: ExpressIcon, percentage: 90 },
+   { name: "MongoDB", icon: MongoDBIcon, percentage: 80 },
 ];

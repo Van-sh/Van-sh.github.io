@@ -20,4 +20,4 @@ export type Project = {
    link?: string;
 };
 
-export type Skill = Tech & { amount: number };
+export type Skill = Tech & { percentage: number };
