@@ -1,4 +1,15 @@
-import { CSSIcon, ExpressIcon, FormikIcon, HeroUIIcon, HTMLIcon, JavaScriptIcon, MongoDBIcon, ReactIcon, TailwindCSSIcon, TypeScriptIcon } from "../assets/TechIcons";
+import {
+   CSSIcon,
+   ExpressIcon,
+   FormikIcon,
+   HeroUIIcon,
+   HTMLIcon,
+   JavaScriptIcon,
+   MongoDBIcon,
+   ReactIcon,
+   TailwindCSSIcon,
+   TypeScriptIcon,
+} from "../assets/TechIcons";
 import { Project, Skill } from "./types";
 
 export const isDesktop = window.innerWidth > 1024;
