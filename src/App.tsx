@@ -4,7 +4,7 @@ import Skills from "./components/Skills";
 
 function App() {
    return (
-      <main>
+      <main className="bg-transparent">
          <About />
          <Projects />
          <Skills />

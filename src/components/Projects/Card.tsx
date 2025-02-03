@@ -10,12 +10,12 @@ type CardProps = {
 
 function Card({ project }: CardProps) {
    return (
-      <div className="min-w-xs max-w-sm flex flex-col gap-3 justify-start items-center p-2 bg-white/20 border border-white/40 rounded-xl">
+      <div className="min-w-xs max-w-sm flex flex-col gap-3 justify-start items-center p-2 bg-white/30 outline-3 outline-offset-3 outline-white/80 rounded-xl">
          <div className="w-full flex gap-2 self-start justify-between">
             <h3 className="text-2xl">{project.title}</h3>
             <div className="flex gap-2">
-               {project.link && <LinkButton src={<ExternalLink stroke="#fff" />} href={project.link} />}
-               <LinkButton src={<Github fill="#fff" />} href={project.github} />
+               {project.link && <LinkButton src={<ExternalLink color="#fff" />} href={project.link} />}
+               <LinkButton src={<Github color="#fff" />} href={project.github} />
             </div>
          </div>
          <p className="text-left">{project.description}</p>
