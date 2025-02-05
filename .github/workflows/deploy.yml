@@ -25,9 +25,7 @@ jobs:
          - name: Checkout
            uses: actions/checkout@v4
          - name: Enable Corepack
-           run: corepack enable
-         - name: Install pnpm
-           run: corepack prepare pnpm@10.0.0 --activate
+           run: npm i -g corepack@latest && corepack enable
          - name: Set up Node
            uses: actions/setup-node@v4
            with:
