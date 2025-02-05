@@ -10,6 +10,6 @@ createRoot(document.getElementById("root")!).render(
    <StrictMode>
       <Blob />
       <App />
-      <ToastContainer position="top-center" autoClose={1000} newestOnTop theme="dark" />
+      <ToastContainer position="top-center" autoClose={2000} newestOnTop theme="dark" />
    </StrictMode>,
 );

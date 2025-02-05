@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const useTypewriter = (texts: string[], typingSpeed: number = 150, pauseTime: number = 500) => {
+const useTypewriter = (texts: string[], typingSpeed: number = 150, pauseTime: number = 600) => {
    const [index, setIndex] = useState(0);
    const [subIndex, setSubIndex] = useState(0);
    const [isDeleting, setIsDeleting] = useState(false);

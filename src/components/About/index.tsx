@@ -16,7 +16,7 @@ function About() {
                I'm <span className="text-7xl text-blue-400">Vansh Shandilya</span>
             </h1>
             <h2 className="text-3xl text-center lg:text-left">
-               A <span className="text-4xl text-green-400">{title}</span>
+               A <span className="text-4xl text-green-400 font-mono">{title}</span>
             </h2>
             <p className="text-lg">
                I specialize in creating efficient, user-friendly web applications. With expertise in React, Formik, Next
@@ -25,10 +25,10 @@ function About() {
             </p>
             <ul className="flex gap-3">
                <li>
-                  <LinkButton src={<Github />} href={links.github} />
+                  <LinkButton icon={<Github />} href={links.github} />
                </li>
                <li>
-                  <LinkButton src={<LinkedIn />} href={links.linkedin} />
+                  <LinkButton icon={<LinkedIn />} href={links.linkedin} />
                </li>
             </ul>
          </div>

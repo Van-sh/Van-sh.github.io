@@ -28,6 +28,12 @@ export const links = {
    linkedin: "https://www.linkedin.com/in/Van-sh",
 };
 
+export const contact = {
+   email: "vansh20005@gmail.com",
+   phone: "+91 9717983709",
+   discord: "van__sh"
+}
+
 export const projects: Project[] = [
    {
       title: "Grocery Planner",

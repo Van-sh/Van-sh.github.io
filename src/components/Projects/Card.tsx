@@ -14,8 +14,8 @@ function Card({ project }: CardProps) {
          <div className="w-full flex gap-2 self-start justify-between">
             <h3 className="text-2xl">{project.title}</h3>
             <div className="flex gap-2">
-               {project.link && <LinkButton src={<ExternalLink color="#fff" />} href={project.link} />}
-               <LinkButton src={<Github color="#fff" />} href={project.github} />
+               {project.link && <LinkButton icon={<ExternalLink color="#fff" />} href={project.link} />}
+               <LinkButton icon={<Github color="#fff" />} href={project.github} />
             </div>
          </div>
          <p className="text-left">{project.description}</p>
