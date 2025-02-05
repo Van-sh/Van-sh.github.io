@@ -1,10 +1,13 @@
-import { links } from "../../constants";
+import { links, titleList } from "../../constants";
+import useTypewriter from "../../hooks/useTypewriter";
 import LinkButton from "../LinkButton";
 
 import Github from "../../assets/Github.svg?react";
 import LinkedIn from "../../assets/LinkedIn.svg?react";
 
 function About() {
+   const title = useTypewriter(titleList);
+
    return (
       <section className="flex flex-col items-center justify-center gap-10 min-h-screen lg:flex-row">
          <img src="/1sh.svg" alt="Logo" className="lg:animate-[bounce_2s_ease-in-out_infinite]" />
@@ -13,7 +16,7 @@ function About() {
                I'm <span className="text-7xl text-blue-400">Vansh Shandilya</span>
             </h1>
             <h2 className="text-3xl text-center lg:text-left">
-               A <span className="text-4xl text-green-400">Software Developer</span>
+               A <span className="text-4xl text-green-400">{title}</span>
             </h2>
             <p className="text-lg">
                I specialize in creating efficient, user-friendly web applications. With expertise in React, Formik, Next

@@ -14,6 +14,15 @@ import { Project, Skill } from "./types";
 
 export const isDesktop = window.innerWidth > 1024;
 
+export const titleList: string[] = [
+   "Software Developer",
+   "Web Developer",
+   "Frontend Developer",
+   "React Developer",
+   "Backend Developer",
+   "Full Stack Developer",
+]
+
 export const links = {
    github: "https://github.com/Van-sh/",
    linkedin: "https://www.linkedin.com/in/Van-sh",
