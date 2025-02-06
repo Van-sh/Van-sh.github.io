@@ -9,15 +9,15 @@ function Contact() {
    return (
       <div className="flex flex-col items-center justify-center gap-10 my-8">
          <h2 className="text-4xl">Contact Me</h2>
-         <ul className="flex flex-col gap-3 items-center">
+         <ul className="flex flex-col gap-3 lg:flex-row items-center">
             <li>
-               <ContactButton icon={<Discord />} type="Discord username" text={contact.discord} />
+               <ContactButton icon={<Discord />} text={contact.discord} />
             </li>
             <li>
-               <ContactButton icon={<Mail />} type="Email" text={contact.email} />
+               <ContactButton icon={<Mail />} text={contact.email} />
             </li>
             <li>
-               <ContactButton icon={<Phone />} type="Phone Number" text={contact.phone} />
+               <ContactButton icon={<Phone />} text={contact.phone} />
             </li>
          </ul>
       </div>
