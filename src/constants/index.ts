@@ -30,7 +30,7 @@ export const links = {
 
 export const contact = {
    email: "vansh20005@gmail.com",
-   phone: "+91 9717983709",
+   phone: "+919717983709",
    discord: "van__sh",
 };
 

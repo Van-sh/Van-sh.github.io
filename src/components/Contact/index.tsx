@@ -7,9 +7,9 @@ import Phone from "../../assets/Phone.svg?react";
 
 function Contact() {
    return (
-      <div className="flex flex-col items-center justify-center gap-10 mt-16 mb-8">
+      <div className="flex flex-col items-center justify-center gap-10 my-8">
          <h2 className="text-4xl">Contact Me</h2>
-         <ul className="flex gap-3">
+         <ul className="flex flex-col gap-3 items-center">
             <li>
                <ContactButton icon={<Discord />} type="Discord username" text={contact.discord} />
             </li>
