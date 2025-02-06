@@ -21,7 +21,7 @@ export const titleList: string[] = [
    "React Developer",
    "Backend Developer",
    "Full Stack Developer",
-]
+];
 
 export const links = {
    github: "https://github.com/Van-sh/",
@@ -31,8 +31,8 @@ export const links = {
 export const contact = {
    email: "vansh20005@gmail.com",
    phone: "+91 9717983709",
-   discord: "van__sh"
-}
+   discord: "van__sh",
+};
 
 export const projects: Project[] = [
    {

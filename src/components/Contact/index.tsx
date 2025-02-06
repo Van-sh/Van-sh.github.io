@@ -1,8 +1,8 @@
 import { contact } from "../../constants";
 import ContactButton from "./ContactButton";
 
-import Mail from "../../assets/Mail.svg?react";
 import Discord from "../../assets/Discord.svg?react";
+import Mail from "../../assets/Mail.svg?react";
 import Phone from "../../assets/Phone.svg?react";
 
 function Contact() {

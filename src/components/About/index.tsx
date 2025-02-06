@@ -13,10 +13,16 @@ function About() {
          <img src="/1sh.svg" alt="Logo" className="lg:animate-[bounce_2s_ease-in-out_infinite]" />
          <div className="flex flex-col items-center justify-center gap-5 max-w-[80vw] lg:max-w-[60vw] lg:items-start">
             <h1 className="text-6xl text-center lg:text-left">
-               I'm <span className="text-7xl text-blue-400">Vansh Shandilya</span>
+               I'm{" "}
+               <span className="text-7xl bg-linear-to-b from-blue-600 to-blue-300 bg-clip-text text-transparent">
+                  Vansh Shandilya
+               </span>
             </h1>
             <h2 className="text-3xl text-center lg:text-left">
-               A <span className="text-4xl text-green-400 font-mono">{title}</span>
+               A{" "}
+               <span className="text-4xl bg-linear-to-b from-green-500 to-green-300 bg-clip-text text-transparent font-mono">
+                  {title}
+               </span>
             </h2>
             <p className="text-lg">
                I specialize in creating efficient, user-friendly web applications. With expertise in React, Formik, Next
