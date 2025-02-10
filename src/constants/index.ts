@@ -46,7 +46,7 @@ export const projects: Project[] = [
          { name: "Next UI", icon: HeroUIIcon },
       ],
       github: "https://github.com/Van-sh/Grocery-Planner",
-      link: "https://grocery-planner.surge.sh/",
+      link: "https://grocery-planner.surge.sh/planner/ingredients",
    },
    {
       title: "CoordiNation",
