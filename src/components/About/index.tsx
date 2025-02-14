@@ -10,21 +10,20 @@ function About() {
 
    return (
       <section className="flex flex-col items-center justify-center gap-10 min-h-screen lg:flex-row">
-         <img src="/1sh.svg" alt="Logo" className="lg:animate-[bounce_2s_ease-in-out_infinite]" />
-         <div className="flex flex-col items-center justify-center gap-5 max-w-[80vw] lg:max-w-[60vw] lg:items-start">
-            <h1 className="text-6xl text-center lg:text-left">
+         <div className="flex flex-col items-center justify-center gap-5 max-w-[80vw] lg:max-w-[60vw]">
+            <h1 className="text-6xl text-center">
                I'm{" "}
                <span className="text-7xl bg-linear-to-b from-blue-600 to-blue-300 bg-clip-text text-transparent">
                   Vansh Shandilya
                </span>
             </h1>
-            <h2 className="text-3xl text-center lg:text-left">
+            <h2 className="text-3xl text-center">
                A{" "}
                <span className="text-4xl bg-linear-to-b from-green-500 to-green-300 bg-clip-text text-transparent font-mono">
                   {title}
                </span>
             </h2>
-            <p className="text-lg">
+            <p className="text-lg text-center">
                I specialize in creating efficient, user-friendly web applications. With expertise in React, Formik, Next
                UI, Express, and MongoDB, I build seamless interfaces and scalable, robust back-end solutions. I thrive
                on solving complex problems and delivering impactful results through collaboration and innovation.
