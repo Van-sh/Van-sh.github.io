@@ -5,11 +5,11 @@ My Portfolio website written in React
 ## Installation
 
 ```sh
-git clone https://github.com/Van-sh/Van-sh.github.io.git
+git clone https://github.com/Van-sh/Van-sh.github.io.git Portfolio
 ```
 
 ```sh
-cd ToDo
+cd Portfolio
 ```
 
 ```sh
