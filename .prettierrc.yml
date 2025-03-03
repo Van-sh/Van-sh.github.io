@@ -1,3 +1,5 @@
 tabWidth: 3
 printWidth: 120
 endOfLine: auto
+plugins:
+   - "prettier-plugin-tailwindcss"

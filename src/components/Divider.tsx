@@ -1,6 +1,6 @@
 function Divider() {
    return (
-      <hr className="w-[70vw] lg:w-[40vw] mx-auto h-[2px] border-0 shadow-none bg-linear-to-r from-transparent via-white/60 to-transparent" />
+      <hr className="mx-auto h-[2px] w-[70vw] border-0 bg-linear-to-r from-transparent via-white/60 to-transparent shadow-none lg:w-[40vw]" />
    );
 }
 
