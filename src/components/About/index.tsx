@@ -1,13 +1,11 @@
-import { links, titleList } from "../../constants";
-import useTypewriter from "../../hooks/useTypewriter";
+import { links } from "../../constants";
 import LinkButton from "../LinkButton";
 
 import Github from "../../assets/Github.svg?react";
 import LinkedIn from "../../assets/LinkedIn.svg?react";
+import Typewriter from "./Typewriter";
 
 function About() {
-   const title = useTypewriter(titleList);
-
    return (
       <section className="flex min-h-screen flex-col items-center justify-center gap-10 lg:flex-row">
          <div className="flex max-w-[80vw] flex-col items-center justify-center gap-5 lg:max-w-[60vw]">
@@ -18,10 +16,7 @@ function About() {
                </span>
             </h1>
             <h2 className="text-center text-3xl">
-               A{" "}
-               <span className="bg-linear-to-b from-green-500 to-green-300 bg-clip-text font-mono text-4xl text-transparent">
-                  {title}
-               </span>
+               A <Typewriter />
             </h2>
             <p className="text-center text-lg">
                I specialize in creating efficient, user-friendly web applications. With expertise in React, Formik, Next
