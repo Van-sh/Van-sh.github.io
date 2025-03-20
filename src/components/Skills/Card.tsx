@@ -8,7 +8,11 @@ function Card({ skill }: CardProps) {
    return (
       <div className="flex max-w-sm min-w-xs items-center justify-center gap-3 rounded-xl bg-white/30 p-2 outline-3 outline-offset-3 outline-white/80">
          <div className="relative size-18">
-            <svg className="size-18 -rotate-90 overflow-visible" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+            <svg
+               className="size-18 -rotate-90 overflow-visible"
+               viewBox="0 0 36 36"
+               xmlns="http://www.w3.org/2000/svg"
+            >
                <circle
                   cx="18"
                   cy="18"

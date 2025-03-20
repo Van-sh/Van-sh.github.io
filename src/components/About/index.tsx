@@ -19,9 +19,10 @@ function About() {
                A <Typewriter />
             </h2>
             <p className="text-center text-lg">
-               I specialize in creating efficient, user-friendly web applications. With expertise in React, Formik, Next
-               UI, Express, and MongoDB, I build seamless interfaces and scalable, robust back-end solutions. I thrive
-               on solving complex problems and delivering impactful results through collaboration and innovation.
+               I specialize in creating efficient, user-friendly web applications. With expertise in
+               React, Formik, Next UI, Express, and MongoDB, I build seamless interfaces and
+               scalable, robust back-end solutions. I thrive on solving complex problems and
+               delivering impactful results through collaboration and innovation.
             </p>
             <ul className="flex gap-3">
                <li>
