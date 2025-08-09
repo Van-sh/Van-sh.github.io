@@ -1,13 +1,14 @@
-import { links } from "../../constants";
-import LinkButton from "../LinkButton";
+import { SiGithub } from "@icons-pack/react-simple-icons";
 
-import Github from "../../assets/Github.svg?react";
-import LinkedIn from "../../assets/LinkedIn.svg?react";
+import { LinkedIn } from "~/assets";
+import { links } from "~/constants";
+import LinkButton from "../LinkButton";
+import Section from "../Section";
 import Typewriter from "./Typewriter";
 
 function About() {
    return (
-      <section className="flex min-h-screen flex-col items-center justify-center gap-10 lg:flex-row">
+      <Section>
          <div className="flex max-w-[80vw] flex-col items-center justify-center gap-5 lg:max-w-[60vw]">
             <h1 className="text-center text-6xl">
                I'm{" "}
@@ -26,14 +27,14 @@ function About() {
             </p>
             <ul className="flex gap-3">
                <li>
-                  <LinkButton icon={<Github />} href={links.github} />
+                  <LinkButton icon={<SiGithub />} href={links.github} />
                </li>
                <li>
                   <LinkButton icon={<LinkedIn />} href={links.linkedin} />
                </li>
             </ul>
          </div>
-      </section>
+      </Section>
    );
 }
 

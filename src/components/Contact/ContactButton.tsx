@@ -1,5 +1,7 @@
 import { useCallback, useState, type MouseEventHandler, type ReactNode } from "react";
 
+import { cn } from "~/lib/utils";
+
 type ContactButtonProps = { icon: ReactNode; text: string };
 
 function ContactButton({ icon, text }: ContactButtonProps) {
@@ -22,7 +24,10 @@ function ContactButton({ icon, text }: ContactButtonProps) {
    return (
       <div className="relative">
          <div
-            className={`${isCopiedVisible ? "opacity-100" : "opacity-0"} pointer-events-none absolute bottom-1 -translate-x-[110%] rounded-sm bg-green-400 px-1 text-black duration-150 after:absolute after:top-[50%] after:left-[100%] after:-mt-1 after:border-4 after:border-t-transparent after:border-r-transparent after:border-b-transparent after:border-l-green-400 lg:bottom-10 lg:left-[50%] lg:-translate-x-[50%] lg:after:top-[100%] lg:after:left-[50%] lg:after:mt-0 lg:after:-ml-1 lg:after:border-t-green-400 lg:after:border-l-transparent`}
+            className={cn(
+               "pointer-events-none absolute bottom-1 -translate-x-[110%] rounded-sm bg-green-400 px-1 text-black duration-150 after:absolute after:top-[50%] after:left-[100%] after:-mt-1 after:border-4 after:border-t-transparent after:border-r-transparent after:border-b-transparent after:border-l-green-400 lg:bottom-10 lg:left-[50%] lg:-translate-x-[50%] lg:after:top-[100%] lg:after:left-[50%] lg:after:mt-0 lg:after:-ml-1 lg:after:border-t-green-400 lg:after:border-l-transparent",
+               { "opacity-100": isCopiedVisible, "opacity-0": !isCopiedVisible },
+            )}
          >
             Copied!
          </div>

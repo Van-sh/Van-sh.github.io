@@ -1,5 +1,10 @@
-tabWidth: 3
-printWidth: 100
-endOfLine: auto
+overrides:
+  - files:
+      - "*.yaml"
+      - "*.yml"
+    options:
+      tabWidth: 2
 plugins:
-   - "prettier-plugin-tailwindcss"
+  - prettier-plugin-tailwindcss
+printWidth: 100
+tabWidth: 3

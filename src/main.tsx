@@ -1,9 +1,10 @@
+import "./index.css";
+
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import App from "./App.tsx";
-import Blob from "./components/Blob.tsx";
 
-import "./index.css";
+import App from "./App";
+import Blob from "./components/Blob";
 
 createRoot(document.getElementById("root")!).render(
    <StrictMode>

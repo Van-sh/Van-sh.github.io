@@ -1,15 +1,9 @@
-type SVGComponent = React.FunctionComponent<
-   React.SVGProps<SVGSVGElement> & {
-      title?: string;
-      titleId?: string;
-      desc?: string;
-      descId?: string;
-   }
->;
+import type { IconType } from "@icons-pack/react-simple-icons";
 
 export type Tech = {
    name: string;
-   icon: SVGComponent;
+   icon: IconType;
+   color?: string;
 };
 
 export type Project = {
@@ -19,5 +13,3 @@ export type Project = {
    github: string;
    link?: string;
 };
-
-export type Skill = Tech & { percentage: number };

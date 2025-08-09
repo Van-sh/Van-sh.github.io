@@ -1,5 +1,5 @@
-import { titleList } from "../../constants";
-import useTypewriter from "../../hooks/useTypewriter";
+import { titleList } from "~/constants";
+import useTypewriter from "~/hooks/useTypewriter";
 
 function Typewriter() {
    const title = useTypewriter(titleList);
