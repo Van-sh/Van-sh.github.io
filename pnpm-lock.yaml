@@ -12,8 +12,8 @@ importers:
         specifier: jsr:^2.0.0
         version: '@jsr/1sh__config@2.0.0(@trivago/prettier-plugin-sort-imports@5.2.2(prettier@3.8.1))(prettier-plugin-organize-imports@4.2.0(prettier@3.8.1)(typescript@5.9.3))(prettier-plugin-sort-imports@1.8.8(typescript@5.9.3))'
       '@icons-pack/react-simple-icons':
-        specifier: ^13.8.0
-        version: 13.8.0(react@19.2.4)
+        specifier: ^13.11.2
+        version: 13.11.2(react@19.2.4)
       clsx:
         specifier: ^2.1.1
         version: 2.1.1
@@ -452,8 +452,9 @@ packages:
       prettier-plugin-ember-template-tag:
         optional: true
 
-  '@icons-pack/react-simple-icons@13.8.0':
-    resolution: {integrity: sha512-iZrhL1fSklfCCVn68IYHaAoKfcby3RakUTn2tRPyHBkhr2tkYqeQbjJWf+NizIYBzKBn2IarDJXmTdXd6CuEfw==}
+  '@icons-pack/react-simple-icons@13.11.2':
+    resolution: {integrity: sha512-IiYWH7Dlp4HvTxsL9Mh/1tjKKhLikKzL+578H1ngQkoREhfXaS9yNl1SXkjNGEAYqNH2w5/tBQc0uXLWAkcSFA==}
+    engines: {node: '>=24', pnpm: '>=10'}
     peerDependencies:
       react: ^16.13 || ^17 || ^18 || ^19
 
@@ -2089,7 +2090,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@icons-pack/react-simple-icons@13.8.0(react@19.2.4)':
+  '@icons-pack/react-simple-icons@13.11.2(react@19.2.4)':
     dependencies:
       react: 19.2.4
 

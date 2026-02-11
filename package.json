@@ -12,7 +12,7 @@
    },
    "dependencies": {
       "@1sh/config": "jsr:^2.0.0",
-      "@icons-pack/react-simple-icons": "^13.8.0",
+      "@icons-pack/react-simple-icons": "^13.11.2",
       "clsx": "^2.1.1",
       "react": "^19.2.4",
       "react-dom": "^19.2.4",
