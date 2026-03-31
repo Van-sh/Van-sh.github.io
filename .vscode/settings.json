@@ -1,0 +1,26 @@
+{
+   "[css]": {
+      "editor.defaultFormatter": "oxc.oxc-vscode"
+   },
+   "[json]": {
+      "editor.defaultFormatter": "oxc.oxc-vscode"
+   },
+   "[typescript]": {
+      "editor.defaultFormatter": "oxc.oxc-vscode"
+   },
+   "[typescriptreact]": {
+      "editor.defaultFormatter": "oxc.oxc-vscode"
+   },
+   "[yaml]": {
+      "editor.defaultFormatter": "oxc.oxc-vscode"
+   },
+   "editor.defaultFormatter": "oxc.oxc-vscode",
+   "files.readonlyInclude": {
+      "**/routeTree.gen.ts": true
+   },
+   "files.watcherExclude": {
+      "**/routeTree.gen.ts": true
+   },
+   "oxc.fmt.configPath": "oxfmt.config.ts",
+   "editor.formatOnSave": true
+}

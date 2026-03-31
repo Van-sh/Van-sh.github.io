@@ -1,7 +1,7 @@
 import { SiGithub } from "@icons-pack/react-simple-icons";
 
 import { LinkedIn } from "~/assets";
-import { links } from "~/constants";
+import { links, titleList } from "~/constants";
 import LinkButton from "../LinkButton";
 import Section from "../Section";
 import Typewriter from "./Typewriter";
@@ -17,7 +17,7 @@ function About() {
                </span>
             </h1>
             <h2 className="text-center text-3xl">
-               A <Typewriter />
+               A <Typewriter list={titleList} />
             </h2>
             <p className="text-center text-lg">
                I specialize in creating efficient, user-friendly web applications. With expertise in

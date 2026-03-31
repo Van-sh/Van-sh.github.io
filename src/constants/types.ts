@@ -1,8 +1,6 @@
-import type { IconType } from "@icons-pack/react-simple-icons";
-
 export type Tech = {
    name: string;
-   icon: IconType;
+   icon: React.FunctionComponent<React.SVGProps<SVGSVGElement>>;
    color?: string;
 };
 

@@ -13,8 +13,8 @@ function Card({ skill }: CardProps) {
          style={{ "--bg-color": skill.color ?? "white" } as CSSProperties}
       >
          <div className="relative size-18">
-            <div className="absolute start-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 transform">
-               <skill.icon height={44} width={44} />
+            <div className="absolute inset-s-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 transform">
+               <skill.icon className="size-11" />
             </div>
          </div>
          <h3 className="w-full text-xl">{skill.name}</h3>
