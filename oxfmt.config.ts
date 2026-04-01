@@ -35,5 +35,5 @@ export default defineConfig({
       },
    ],
 
-   ignorePatterns: ["migrations/", "**/*.md", "**/*.gen.ts"],
+   ignorePatterns: ["**/*.md"],
 });

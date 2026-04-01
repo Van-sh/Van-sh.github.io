@@ -58,6 +58,14 @@ import {
 
 import type { Project, Tech } from "./types";
 
+export const name = "Vansh Shandilya";
+
+export const aboutText =
+   "I specialize in creating efficient, user-friendly web applications. With expertise in " +
+   "React, Tanstack, Elysia, and Drizzle, I build seamless interfaces and scalable, " +
+   "robust back-end solutions. I thrive on solving complex problems and delivering " +
+   "impactful results through collaboration and innovation.";
+
 export const titleList: string[] = [
    "Software Developer",
    "Web Developer",
@@ -105,7 +113,7 @@ export const projects: Project[] = [
          { name: "Bun", icon: Bun },
          { name: "better-auth", icon: BetterAuthLight },
          { name: "Turso", icon: TursoLight },
-         { name: "Drizzle", icon: DrizzleORMLight },
+         { name: "Drizzle ORM", icon: DrizzleORMLight },
          { name: "Shadcn UI", icon: ShadcnUiLight },
       ],
       github: "https://github.com/Van-sh/deurl",
@@ -134,9 +142,9 @@ export const skills: Tech[] = [
    { name: "Tanstack Start", icon: TanStack, color: SiTanstackHex },
    { name: "Next.js", icon: Nextjs, color: SiNextdotjsHex },
    { name: "React", icon: ReactDark, color: SiReactHex },
-   { name: "ShadcnUI", icon: ShadcnUiDark, color: SiShadcnuiHex },
+   { name: "Shadcn UI", icon: ShadcnUiDark, color: SiShadcnuiHex },
    { name: "TailwindCSS", icon: TailwindCSS, color: SiTailwindcssHex },
-   { name: "Drizzle", icon: DrizzleORMDark, color: SiDrizzleHex },
+   { name: "Drizzle ORM", icon: DrizzleORMDark, color: SiDrizzleHex },
    { name: "Turso", icon: TursoDark, color: SiTursoHex },
    { name: "better-auth", icon: BetterAuthDark, color: SiBetterauthHex },
    { name: "PostgreSQL", icon: PostgreSQL, color: SiPostgresqlHex },

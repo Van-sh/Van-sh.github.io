@@ -1,7 +1,7 @@
 import { SiGithub } from "@icons-pack/react-simple-icons";
 
 import { LinkedIn } from "~/assets";
-import { links, titleList } from "~/constants";
+import { aboutText, links, name, titleList } from "~/constants";
 import LinkButton from "../LinkButton";
 import Section from "../Section";
 import Typewriter from "./Typewriter";
@@ -13,18 +13,13 @@ function About() {
             <h1 className="text-center text-6xl">
                I'm{" "}
                <span className="bg-linear-to-b from-blue-600 to-blue-300 bg-clip-text text-7xl text-transparent">
-                  Vansh Shandilya
+                  {name}
                </span>
             </h1>
             <h2 className="text-center text-3xl">
                A <Typewriter list={titleList} />
             </h2>
-            <p className="text-center text-lg">
-               I specialize in creating efficient, user-friendly web applications. With expertise in
-               React, Formik, Next UI, Express, and MongoDB, I build seamless interfaces and
-               scalable, robust back-end solutions. I thrive on solving complex problems and
-               delivering impactful results through collaboration and innovation.
-            </p>
+            <p className="text-center text-lg">{aboutText}</p>
             <ul className="flex gap-3">
                <li>
                   <LinkButton icon={<SiGithub />} href={links.github} />
