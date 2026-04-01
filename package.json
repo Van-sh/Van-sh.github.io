@@ -6,7 +6,7 @@
    "scripts": {
       "dev": "vite",
       "build": "tsc -b && vite build",
-      "lint": "eslint .",
+      "lint": "oxlint",
       "preview": "vite preview",
       "format": "oxfmt"
    },
@@ -19,20 +19,16 @@
       "tailwind-merge": "^3.5.0"
    },
    "devDependencies": {
-      "@eslint/js": "^10.0.1",
       "@tailwindcss/vite": "^4.2.2",
       "@types/node": "^25.5.0",
       "@types/react": "^19.2.14",
       "@types/react-dom": "^19.2.3",
       "@vitejs/plugin-react": "^6.0.1",
-      "eslint": "^10.1.0",
-      "eslint-plugin-react-hooks": "^7.0.1",
-      "eslint-plugin-react-refresh": "^0.5.2",
-      "globals": "^17.4.0",
       "oxfmt": "^0.42.0",
+      "oxlint": "^1.57.0",
+      "oxlint-tsgolint": "^0.18.1",
       "tailwindcss": "^4.2.2",
       "typescript": "~6.0.2",
-      "typescript-eslint": "^8.57.2",
       "vite": "^8.0.3",
       "vite-plugin-svgr": "^5.0.0"
    },
