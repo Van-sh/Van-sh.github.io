@@ -1,21 +1,21 @@
-import { defineConfig } from "oxlint";
+{
+   "$schema": "./node_modules/oxlint/configuration_schema.json",
 
-export default defineConfig({
-   plugins: [],
-   categories: {
-      correctness: "off",
+   "plugins": [],
+   "categories": {
+      "correctness": "off"
    },
-   env: {
-      builtin: true,
+   "env": {
+      "builtin": true
    },
-   options: {
-      typeAware: true,
+   "options": {
+      "typeAware": true
    },
-   ignorePatterns: ["dist"],
-   overrides: [
+   "ignorePatterns": ["dist"],
+   "overrides": [
       {
-         files: ["**/*.{ts,tsx}"],
-         rules: {
+         "files": ["**/*.{ts,tsx}"],
+         "rules": {
             "constructor-super": "off",
             "for-direction": "error",
             "getter-return": "off",
@@ -102,13 +102,13 @@ export default defineConfig({
             "@typescript-eslint/triple-slash-reference": "error",
             "react-hooks/rules-of-hooks": "error",
             "react-hooks/exhaustive-deps": "warn",
-            "react/only-export-components": ["warn", { allowConstantExport: true }],
+            "react/only-export-components": ["warn", { "allowConstantExport": true }]
          },
-         plugins: ["typescript", "react"],
-         env: {
-            es2020: true,
-            browser: true,
-         },
-      },
-   ],
-});
+         "plugins": ["typescript", "react"],
+         "env": {
+            "es2020": true,
+            "browser": true
+         }
+      }
+   ]
+}
