@@ -156,7 +156,7 @@ export const experience: Experience[] = [
    {
       company: "Acowale",
       title: "SDE Intern",
-      startDate: new Date(2026, 2),
-      endDate: new Date(2026, 4),
+      startDate: new Date(2026, 1),
+      endDate: new Date(2026, 3),
    },
 ] as const;
