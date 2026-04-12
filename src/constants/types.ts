@@ -11,3 +11,10 @@ export type Project = {
    github: string;
    link?: string;
 };
+
+export type Experience = {
+   company: string;
+   title: string;
+   startDate: Date;
+   endDate?: Date;
+};

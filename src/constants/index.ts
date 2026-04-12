@@ -49,7 +49,7 @@ import {
    VisualStudioCode,
 } from "@ridemountainpig/svgl-react";
 
-import type { Project, Tech } from "./types";
+import type { Experience, Project, Tech } from "./types";
 
 export const name = "Vansh Shandilya";
 
@@ -150,4 +150,13 @@ export const skills: Tech[] = [
    { name: "CSS", icon: CSS, color: SiCssHex },
    { name: "Git", icon: Git, color: SiGitHex },
    { name: "GitHub", icon: GitHubDark, color: SiGithubHex },
+] as const;
+
+export const experience: Experience[] = [
+   {
+      company: "Acowale",
+      title: "SDE Intern",
+      startDate: new Date(2026, 2),
+      endDate: new Date(2026, 4),
+   },
 ] as const;
